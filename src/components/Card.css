@@ -1,0 +1,11 @@
+#center {
+  width: 400px;
+  height: 150px;
+  /* background-color: #ccf4f3d7; */
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 20px;
+}
