@@ -1,0 +1,8 @@
+#grand {
+  width: 800px;
+  height: 400px;
+  background: #920663;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
