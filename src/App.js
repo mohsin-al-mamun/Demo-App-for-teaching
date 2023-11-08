@@ -4,9 +4,9 @@ import Card from "./components/Card";
 function App() {
   return (
     <div id="container">
-      <Card />
-      <Card />
-      <Card />
+      <Card name="Mohsin" designation="Software Developer" />
+      <Card name="Mitu" designation="Software Engineer" />
+      <Card name="Imran Hossain" designation="Business Magnet" />
     </div>
   );
 }

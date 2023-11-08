@@ -1,7 +1,13 @@
 import "./Card.css";
 
-function Card() {
-  return <div id="center"> This is a demo react project. </div>;
+function Card(props) {
+  //  props = {name:"Mohsin", designation:"Software Developer" }
+  return (
+    <div id="center">
+      <div> {props.name} </div>
+      <div>{props.designation}</div>
+    </div>
+  );
 }
 
 export default Card;
