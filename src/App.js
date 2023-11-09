@@ -3,10 +3,18 @@ import Card from "./components/Card";
 
 function App() {
   return (
-    <div id="container">
-      <Card name="Mohsin" designation="Software Developer" />
-      <Card name="Mitu" designation="Software Engineer" />
-      <Card name="Imran Hossain" designation="Business Magnet" />
+    <div id="container ">
+      <div id="header"> Famous Qoutes </div>
+      <div id="Cardcontainer">
+        <Card
+          qoute="It is during our darkest moments that we must focus to see the light."
+          author=" Aristotle"
+        />
+        <Card
+          qoute="It is during our darkest moments that we must focus to see the light."
+          author=" Aristotle"
+        />
+      </div>
     </div>
   );
 }

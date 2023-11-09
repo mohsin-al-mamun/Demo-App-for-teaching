@@ -1,12 +1,25 @@
-#center {
-  width: 400px;
-  height: 150px;
+#cardContainer {
+  width: 650px;
+  height: 200px;
   /* background-color: #ccf4f3d7; */
-  background-color: black;
+  background-color: rgb(198, 197, 197);
+  /* padding: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   color: red;
   font-size: 20px;
+  border-radius: 10px;
+}
+
+#qoute {
+  color: #03352f;
+  font-size: 23px;
+  margin: 0px 30px;
+}
+
+#author {
+  text-align: right;
+  margin-right: 30px;
 }

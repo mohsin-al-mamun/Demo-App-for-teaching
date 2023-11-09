@@ -36,6 +36,11 @@ const arrayOfQuotes = [
     author: "Eleanor Roosevelt",
   },
   {
+    qoute:
+      "If someone hits you, don't hit them back. Show mercy and keep patience. When opportunity comes, hit them too harder ",
+    author: "Mohsin Al - Mamun",
+  },
+  {
     qoute: "Well done is better than well said. ",
     author: "Benjamin Franklin",
   },
