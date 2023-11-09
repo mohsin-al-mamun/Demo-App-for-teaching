@@ -1,15 +1,15 @@
 import "./App.css";
 import Card from "./components/Card";
+import { arrayOfQuotes } from "./data";
 
 function App() {
   return (
     <div id="container ">
       <div id="header"> Famous Qoutes </div>
       <div id="Cardcontainer">
-        <Card
-          qoute="It is during our darkest moments that we must focus to see the light."
-          author=" Aristotle"
-        />
+        {arrayOfQuotes.map((item) => {
+          return <Card quote={item.quote} author={item.author} />;
+        })}
       </div>
     </div>
   );

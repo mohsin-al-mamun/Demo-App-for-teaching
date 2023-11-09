@@ -19,10 +19,12 @@
   margin-top: 20px;
   padding: 20px;
   min-height: 100vh;
-  color: white;
+  /* color: white; */
+  color: black;
   display: flex;
   justify-content: center;
   /* align-items: center; */
+  /* align-content: center; */
   flex-wrap: wrap;
   gap: 20px;
 }
