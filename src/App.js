@@ -1,5 +1,6 @@
 import "./App.css";
 import Card from "./components/Card";
+import Pagination from "./components/Pagination";
 import { arrayOfQuotes } from "./data";
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
         {arrayOfQuotes.map((item) => {
           return <Card quote={item.quote} author={item.author} />;
         })}
+      </div>
+      <div>
+        <Pagination />
       </div>
     </div>
   );
