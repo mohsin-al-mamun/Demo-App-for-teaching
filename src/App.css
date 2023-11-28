@@ -1,4 +1,4 @@
-#container {
+#container-blue {
   background-color: #338194;
   margin: 0;
   padding: 20px;
@@ -7,4 +7,22 @@
   align-items: center;
   justify-content: space-evenly;
   color: white;
+}
+
+#container-yellow {
+  background-color: #d6bd4b;
+  margin: 0;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+
+#btn {
+  margin-right: 10px;
+  height: 30px;
+  align-self: flex-end;
+  margin-bottom: 100px;
 }
