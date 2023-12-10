@@ -5,6 +5,11 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   color: white;
+  gap: 10px;
+}
+.btn {
+  width: 150px;
+  height: 40px;
 }
