@@ -1,10 +1,28 @@
 #container {
-  background-color: #338194;
+  background-color: #94acb2;
   margin: 0;
   padding: 20px;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: white;
+  /* color: white; */
+}
+
+#left-container {
+  background-color: #c8dfe5;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#right-container {
+  background-color: #95def6;
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

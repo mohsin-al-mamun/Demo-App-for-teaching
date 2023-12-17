@@ -1,12 +1,12 @@
 import "./App.css";
-import Card from "./components/Card";
+import LeftCardContainer from "./components/LeftCardContainer";
+import RightCardContainer from "./components/RightCardContainer";
 
 function App() {
   return (
     <div id="container">
-      <Card name="Mohsin" designation="Software Developer" />
-      <Card name="Mitu" designation="Software Engineer" />
-      <Card name="Imran Hossain" designation="Business Magnet" />
+      <LeftCardContainer />
+      <RightCardContainer />
     </div>
   );
 }
