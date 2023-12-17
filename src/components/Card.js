@@ -4,7 +4,7 @@ function Card(props) {
   return (
     <div id="center">
       <div> {props.name} </div>
-      <div>{props.email}</div>
+      <div>{props.designation}</div>
     </div>
   );
 }
